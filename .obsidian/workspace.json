@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fdad8e809bd5aa17",
+        "id": "98256f043efea1c6",
         "type": "tabs",
         "children": [
           {
-            "id": "6bc35f416fff96a9",
+            "id": "bb3e0a6d1a391ac9",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d3d72d180b1cf1e2",
@@ -198,10 +197,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6bc35f416fff96a9",
+  "active": "bb3e0a6d1a391ac9",
   "lastOpenFiles": [
+    "AI资讯/2026/04/17/AI.md",
+    "AI资讯/2026/04/17/开源.md",
+    "AI资讯/2026/04/17/产品.md",
+    "conflict-files-obsidian-git.md",
     "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
     "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
+    "AI资讯/2026/04/17",
+    "AI资讯/2026/04",
+    "AI资讯/2026",
+    "AI资讯",
     "欢迎.md",
     "创建链接.md",
     "AI+小红书私域淘金秘籍"
