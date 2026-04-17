@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "befe717c5af1fa9d",
+        "id": "fdad8e809bd5aa17",
         "type": "tabs",
         "children": [
           {
-            "id": "ddd23f9e7657ac51",
+            "id": "6bc35f416fff96a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "AI+小红书私域淘金秘籍"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d3d72d180b1cf1e2",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
+                "file": "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
+                "file": "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
+                "file": "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -197,12 +198,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ddd23f9e7657ac51",
+  "active": "6bc35f416fff96a9",
   "lastOpenFiles": [
-    "欢迎.md",
-    "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
-    "创建链接.md",
     "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
+    "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
+    "欢迎.md",
+    "创建链接.md",
     "AI+小红书私域淘金秘籍"
   ]
 }
