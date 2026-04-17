@@ -11,14 +11,14 @@
             "id": "ddd23f9e7657ac51",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/webviewer.json",
-                "bFile": ".obsidian/webviewer.json",
-                "aRef": ""
+                "file": "AI资讯/2026/04/17/AI.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: webviewer.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "AI"
             }
           }
         ]
@@ -197,8 +197,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e3f90d29bb01f86",
+  "active": "ddd23f9e7657ac51",
   "lastOpenFiles": [
+    "AI资讯/2026/04/17/开源.md",
+    "AI资讯/2026/04/17/产品.md",
+    "AI资讯/2026/04/17/AI.md",
+    "AI资讯/2026/04/17",
+    "AI资讯/2026/04",
+    "AI资讯/2026",
+    "AI资讯",
     "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
     "未命名.base",
     "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
