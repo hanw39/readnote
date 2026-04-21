@@ -25,14 +25,16 @@
             "id": "450c6473de742d0d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2小时应该Build个什么产品/2小时应该Build个什么产品.md",
-                "mode": "source",
-                "source": false
+                "file": "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
+                "page": 11,
+                "left": -25,
+                "top": 51,
+                "zoom": 0.6091115026428392
               },
-              "icon": "lucide-file",
-              "title": "2小时应该Build个什么产品"
+              "icon": "lucide-file-text",
+              "title": "AI+小红书私域淘金秘籍"
             }
           }
         ],
@@ -212,10 +214,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "615157bb97436a18",
+  "active": "450c6473de742d0d",
   "lastOpenFiles": [
-    "2小时应该Build个什么产品/未命名.canvas",
     "2小时应该Build个什么产品/2小时应该Build个什么产品.md",
+    "2小时应该Build个什么产品/未命名.canvas",
     "2小时应该Build个什么产品/2小时应该Build个什么产品——笔记.md",
     "AI资讯/2026/04/21/summary.md",
     "2小时应该Build个什么产品",

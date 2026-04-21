@@ -1,6 +1,3 @@
-哈喽，大家好，我是刘小排。
-
-这是一个伟大的时代，同时有自媒体大爆发和AI大爆发。
 
 **我一直认为，我们应该关注Builders（动作做事的人），无需Influencers（只做自媒体的人）。**
 
@@ -10,9 +7,6 @@
 > ==2. 过去24小时，有哪些值得我们独立开发者/创业者关注的AI行业大事发生？==
 > ==3. 我正在找产品机会，如果今天我有2小时，我可以创建什么产品？==
 
-已经持续用了3个月时间，发挥比较稳定。上周，我共享给了几位朋友，他们也觉得很有帮助。
-
-于是我决定——公开它！
 
 这个产品叫 BuilderPulse， 把握全世界Builder的脉搏！
 
@@ -69,13 +63,3 @@
 > 本周有没有"XX 已死"或迁移类文章？
 
 ![图片](data:image/svg+xml,%3C%3Fxml%20version='1.0'%20encoding='UTF-8'%3F%3E%3Csvg%20width='1px'%20height='1px'%20viewBox='0%200%201%201'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%20fill-opacity='0'%3E%3Cg%20transform='translate\(-249.000000,%20-126.000000\)'%20fill='%23FFFFFF'%3E%3Crect%20x='249'%20y='126'%20width='1'%20height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-就这些了！
-
-欢迎关注！
-
-如果你想看其他什么信息，可以直接留言或者在GitHub提出Issue。
-
----
-
-_另外最后打个小广告，我最喜欢的AI创业社群九周年庆，有优惠，看评论区。_
