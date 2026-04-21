@@ -25,16 +25,14 @@
             "id": "450c6473de742d0d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "split-diff-view",
               "state": {
-                "file": "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
-                "page": 11,
-                "left": -25,
-                "top": 51,
-                "zoom": 0.6091115026428392
+                "aFile": "AI资讯/2026/04/21/summary.md",
+                "bFile": "AI资讯/2026/04/21/summary.md",
+                "aRef": ""
               },
-              "icon": "lucide-file-text",
-              "title": "AI+小红书私域淘金秘籍"
+              "icon": "diff",
+              "title": "Diff: summary  (Working Tree)"
             }
           }
         ],
@@ -216,12 +214,13 @@
   },
   "active": "450c6473de742d0d",
   "lastOpenFiles": [
+    "AI资讯/2026/04/21/AI.md",
+    "AI资讯/2026/04/21/summary.md",
+    "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
     "2小时应该Build个什么产品/2小时应该Build个什么产品.md",
     "2小时应该Build个什么产品/未命名.canvas",
     "2小时应该Build个什么产品/2小时应该Build个什么产品——笔记.md",
-    "AI资讯/2026/04/21/summary.md",
     "2小时应该Build个什么产品",
-    "AI资讯/2026/04/21/AI.md",
     "AI资讯/2026/04/17/AI.md",
     "AI资讯/2026/04/21",
     "AI资讯/2026/04/19/开源.md",
@@ -237,7 +236,6 @@
     "AI资讯/2026/04/17/产品.md",
     "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
     "conflict-files-obsidian-git.md",
-    "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
     "AI资讯/2026/04/17",
     "AI资讯/2026/04",
     "AI资讯/2026",
