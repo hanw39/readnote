@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b68f1318c6806530",
+            "id": "bb3e0a6d1a391ac9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Viking DB/【向量库】表征方式配置参考--向量数据库VikingDB-火山引擎.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "【向量库】表征方式配置参考--向量数据库VikingDB-火山引擎"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
+            }
+          },
+          {
+            "id": "a79fd011e96d3913",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,37 +212,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b68f1318c6806530",
+  "active": "2e3f90d29bb01f86",
   "lastOpenFiles": [
-    "Viking DB",
     "Viking DB/【向量库】表征方式配置参考--向量数据库VikingDB-火山引擎.md",
+    "Viking DB",
     "2小时应该Build个什么产品.md",
-    "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
-    "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
-    "未命名.base",
-    "未命名 2.base",
-    "未命名 1.base",
-    "AI资讯/2026/04/21/AI.md",
-    "AI资讯/2026/04/21/summary.md",
-    "2小时应该Build个什么产品/未命名.canvas",
-    "2小时应该Build个什么产品/2小时应该Build个什么产品——笔记.md",
-    "2小时应该Build个什么产品",
-    "AI资讯/2026/04/17/AI.md",
-    "AI资讯/2026/04/21",
-    "AI资讯/2026/04/19/开源.md",
-    "AI资讯/2026/04/19/产品.md",
-    "AI资讯/2026/04/19/summary.md",
-    "AI资讯/2026/04/19/AI.md",
-    "AI资讯/2026/04/19",
-    "AI资讯/2026/04/18/开源.md",
-    "AI资讯/2026/04/18/产品.md",
-    "AI资讯/2026/04/18/AI.md",
-    "AI资讯/2026/04/18",
-    "AI资讯/2026/04/17/开源.md",
-    "AI资讯/2026/04/17/产品.md",
     "conflict-files-obsidian-git.md",
-    "AI资讯/2026/04/17",
-    "AI资讯/2026/04",
+    "AI资讯/2026/04/22/产品.md",
+    "AI资讯/ClaudeCode Change Log.md",
+    "AI资讯/2026/04/22/summary.md",
+    "AI资讯/2026/04/19/开源.md",
+    "AI资讯/2026/04/19/summary.md",
+    "AI资讯/2026/04/21/AI.md",
+    "AI资讯/2026/04/19/AI.md",
+    "AI资讯/2026/04/22/AI.md",
+    "AI资讯/2026/04/22",
+    "news/2026/04/22",
+    "2小时应该Build个什么产品/2小时应该Build个什么产品.md",
+    "2小时应该Build个什么产品",
+    "AI资讯/2026/04/21/summary.md",
+    "AI资讯/2026/04/21",
+    "news/2026/04/21",
+    "news/2026/04",
+    "news/2026",
+    "news",
+    "AI资讯/2026/04/17/产品.md",
+    "AI资讯/2026/04/17/开源.md",
+    "AI资讯/2026/04/17/AI.md",
+    "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
+    "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
     "欢迎.md",
     "创建链接.md"
   ]
