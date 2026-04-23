@@ -13,13 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "AI资讯/2026/04/22/summary.md",
-                "bFile": "AI资讯/2026/04/22/summary.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: summary  (Index)"
+              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
             }
           }
         ]
@@ -200,12 +199,12 @@
   },
   "active": "b68f1318c6806530",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "news/2026/04/23/AI经济研究.md",
     "news/2026/04/23/AI工具与MCP.md",
     "news/2026/04/23/summary.md",
     "note/杂项.md",
     "Viking DB/【向量库】表征方式配置参考--向量数据库VikingDB-火山引擎.md",
-    "conflict-files-obsidian-git.md",
     "news/2026/04/23",
     "news/2026/04",
     "news/2026",
