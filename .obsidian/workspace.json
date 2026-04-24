@@ -11,12 +11,14 @@
             "id": "d660bf5afe857353",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "ChatGPT-Image-2 Prompt/images/case_case61/output.jpg"
+                "file": "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "output"
+              "icon": "lucide-file",
+              "title": "GPT-Image-2 提示词大全"
             }
           }
         ]
@@ -154,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ChatGPT-Image-2 Prompt/images/case_case61/output.jpg",
+                "file": "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "output 的大纲"
+              "title": "GPT-Image-2 提示词大全 的大纲"
             }
           },
           {
@@ -197,28 +199,30 @@
   },
   "active": "d660bf5afe857353",
   "lastOpenFiles": [
+    "ChatGPT-Image-2 Prompt/images/case_case61/output.jpg",
+    "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全.md.baiduyun.uploading.cfg",
+    "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全.md",
+    "ChatGPT-Image-2 Prompt/images/ui_case9/output.jpg.baiduyun.uploading.cfg",
+    "ChatGPT-Image-2 Prompt/images/ui_case88/output.jpg.baiduyun.uploading.cfg",
+    "ChatGPT-Image-2 Prompt/images/ui_case8/output.jpg.baiduyun.uploading.cfg",
+    "ChatGPT-Image-2 Prompt/images/ui_case7/output.jpg.baiduyun.uploading.cfg",
+    "ChatGPT-Image-2 Prompt/images/ui_case64/output.jpg.baiduyun.uploading.cfg",
+    "ChatGPT-Image-2 Prompt/images/ui_case63/output.jpg.baiduyun.uploading.cfg",
+    "ChatGPT-Image-2 Prompt/images/ui_case6/output.jpg.baiduyun.uploading.cfg",
+    "ChatGPT-Image-2 Prompt/images/ui_case5/output.jpg.baiduyun.uploading.cfg",
+    "ChatGPT-Image-2 Prompt/images/ui_case40/output.jpg.baiduyun.uploading.cfg",
     "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md",
-    "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全.pdf",
     "conflict-files-obsidian-git.md",
     "news/2026/04/24/AI产品.md",
     "ChatGPT-Image-2 Prompt/images/portrait_case12/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/portrait_case12",
     "ChatGPT-Image-2 Prompt/images/portrait_case11/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/portrait_case11",
     "ChatGPT-Image-2 Prompt/images/portrait_case10/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/portrait_case10",
     "ChatGPT-Image-2 Prompt/images/portrait_case1/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/portrait_case1",
     "ChatGPT-Image-2 Prompt/images/comparison_case8/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/comparison_case8",
     "ChatGPT-Image-2 Prompt/images/comparison_case7/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/comparison_case7",
     "ChatGPT-Image-2 Prompt/images/comparison_case6/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/comparison_case6",
     "ChatGPT-Image-2 Prompt/images/comparison_case5/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/comparison_case5",
     "ChatGPT-Image-2 Prompt/images/comparison_case4/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/comparison_case4",
     "ChatGPT-Image-2 Prompt/images/comparison_case39/output.jpg",
     "news/2026/04/22/公司.md",
     "news/2026/04/23/AI工具与MCP.md",
@@ -241,7 +245,6 @@
     "2小时应该Build个什么产品/未命名.canvas",
     "2小时应该Build个什么产品/2小时应该Build个什么产品——笔记.md",
     "news/2026/04/19/开源.md",
-    "news/2026/04/19/产品.md",
-    "news/2026/04/19/summary.md"
+    "news/2026/04/19/产品.md"
   ]
 }
