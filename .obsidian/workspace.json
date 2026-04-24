@@ -11,14 +11,14 @@
             "id": "b68f1318c6806530",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
+                "file": "news/2026/04/23/AI工具与MCP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "AI工具与MCP"
             }
           }
         ]
@@ -197,8 +197,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b68f1318c6806530",
+  "active": "615157bb97436a18",
   "lastOpenFiles": [
+    "ChatGPT-Image-2 Prompt",
+    "AI资讯/2026/04/22/公司.md",
+    "AI资讯/2026/04/21/AI.md",
+    "AI资讯/2026/04/18/AI.md",
+    "AI资讯/2026/04/18/开源.md",
+    "AI资讯/2026/04/17/AI.md",
+    "AI资讯/2026/04/17/产品.md",
+    "news/2026/04/24/AI产品.md",
+    "news/2026/04/24/summary.md",
+    "news/2026/04/24/AI工具与产品.md",
+    "news/2026/04/24",
     "conflict-files-obsidian-git.md",
     "news/2026/04/23/AI经济研究.md",
     "news/2026/04/23/AI工具与MCP.md",
@@ -210,7 +221,6 @@
     "news/2026",
     "news",
     "AI资讯/ClaudeCode Change Log.md",
-    "AI资讯/2026/04/22/公司.md",
     "AI资讯/2026/04/22/summary.md",
     "AI资讯/2026/04/22",
     "note",
@@ -219,22 +229,12 @@
     "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
     "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
     "未命名.base",
-    "未命名 2.base",
-    "AI资讯/2026/04/21/AI.md",
     "AI资讯/2026/04/21/summary.md",
     "2小时应该Build个什么产品/未命名.canvas",
     "2小时应该Build个什么产品/2小时应该Build个什么产品——笔记.md",
-    "AI资讯/2026/04/17/AI.md",
     "AI资讯/2026/04/19/开源.md",
     "AI资讯/2026/04/19/产品.md",
     "AI资讯/2026/04/19/summary.md",
-    "AI资讯/2026/04/19/AI.md",
-    "AI资讯/2026/04/18/开源.md",
-    "AI资讯/2026/04/18/产品.md",
-    "AI资讯/2026/04/18/AI.md",
-    "AI资讯/2026/04/17/开源.md",
-    "AI资讯/2026/04/17/产品.md",
-    "欢迎.md",
-    "创建链接.md"
+    "AI资讯/2026/04/19/AI.md"
   ]
 }
