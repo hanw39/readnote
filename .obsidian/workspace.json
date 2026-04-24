@@ -20,8 +20,23 @@
               "icon": "diff",
               "title": "Diff: workspace.json  (Working Tree)"
             }
+          },
+          {
+            "id": "a79fd011e96d3913",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI资讯/2026/04/21/summary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "summary"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,51 +214,41 @@
   },
   "active": "615157bb97436a18",
   "lastOpenFiles": [
-    "news/2026/04/22/公司.md",
-    "news/2026/04/22/summary.md",
-    "news/2026/04/21/summary.md",
-    "news/2026/04/21/AI.md",
-    "news/2026/04/19/开源.md",
-    "news/2026/04/19/产品.md",
-    "news/2026/04/19/summary.md",
-    "news/2026/04/19/AI.md",
-    "news/2026/04/19",
-    "news/2026/04/18/开源.md",
-    "news/2026/04/18/产品.md",
-    "news/2026/04/18/AI.md",
-    "news/2026/04/18",
-    "news/2026/04/17/开源.md",
-    "news/2026/04/17/产品.md",
-    "news/2026/04/17/AI.md",
-    "news/2026/04/17",
-    "ChatGPT-Image-2 Prompt/images/ui_case9/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/ui_case88/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/ui_case8/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/ui_case7/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/ui_case64/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/ui_case63/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/ui_case6/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/ui_case5/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/ui_case40/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/ui_case4/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/ui_case9",
-    "ChatGPT-Image-2 Prompt/images/ui_case88",
-    "ChatGPT-Image-2 Prompt/images/ui_case8",
-    "ChatGPT-Image-2 Prompt/images/ui_case7",
-    "ChatGPT-Image-2 Prompt/images/ui_case64",
-    "ChatGPT-Image-2 Prompt/images/ui_case63",
-    "ChatGPT-Image-2 Prompt/images/ui_case6",
-    "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md",
-    "note/杂项.md",
     "news/2026/04/24/summary.md",
     "news/2026/04/24/AI产品.md",
     "news/2026/04/24/AI工具与产品.md",
+    "news/2026/04/24",
     "news/2026/04/23/summary.md",
     "news/2026/04/23/AI经济研究.md",
     "news/2026/04/23/AI工具与MCP.md",
+    "news/2026/04/23",
     "AI资讯/2026/04/22/summary.md",
     "AI资讯/2026/04/22/公司.md",
+    "AI资讯/2026/04/22",
     "Viking DB/【向量库】表征方式配置参考--向量数据库VikingDB-火山引擎.md",
-    "2小时应该Build个什么产品.md"
+    "Viking DB",
+    "2小时应该Build个什么产品.md",
+    "conflict-files-obsidian-git.md",
+    "AI资讯/2026/04/22/产品.md",
+    "AI资讯/ClaudeCode Change Log.md",
+    "AI资讯/2026/04/19/开源.md",
+    "AI资讯/2026/04/19/summary.md",
+    "AI资讯/2026/04/21/AI.md",
+    "AI资讯/2026/04/19/AI.md",
+    "AI资讯/2026/04/22/AI.md",
+    "news/2026/04/22",
+    "2小时应该Build个什么产品/2小时应该Build个什么产品.md",
+    "2小时应该Build个什么产品",
+    "AI资讯/2026/04/21/summary.md",
+    "AI资讯/2026/04/21",
+    "news/2026/04/21",
+    "news/2026/04",
+    "news/2026",
+    "AI资讯/2026/04/17/产品.md",
+    "AI资讯/2026/04/17/开源.md",
+    "AI资讯/2026/04/17/AI.md",
+    "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
+    "欢迎.md",
+    "创建链接.md"
   ]
 }
