@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
+                "file": "news/2026/04/23/AI工具与MCP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI+小红书私域淘金秘籍 的大纲"
+              "title": "AI工具与MCP 的大纲"
             }
           },
           {
@@ -197,7 +197,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "615157bb97436a18",
+  "active": "2e3f90d29bb01f86",
   "lastOpenFiles": [
     "ChatGPT-Image-2 Prompt",
     "news/2026/04/22/公司.md",
