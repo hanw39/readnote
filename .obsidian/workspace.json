@@ -34,9 +34,37 @@
               "icon": "lucide-file",
               "title": "GPT-Image-2 提示词大全🔥"
             }
+          },
+          {
+            "id": "c3bc1aa6eddaed9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GPT-Image-2 提示词大全🔥"
+            }
+          },
+          {
+            "id": "602f4f076eb994e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GPT-Image-2 提示词大全🔥"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -212,7 +240,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6fd07bddbbbbff20",
+  "active": "602f4f076eb994e9",
   "lastOpenFiles": [
     "news/2026/04/24/AI产品.md",
     "ChatGPT-Image-2 Prompt/images/portrait_case12/output.jpg",
