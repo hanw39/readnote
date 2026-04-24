@@ -11,14 +11,12 @@
             "id": "d660bf5afe857353",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md",
-                "mode": "source",
-                "source": false
+                "file": "ChatGPT-Image-2 Prompt/images/case_case61/output.jpg"
               },
-              "icon": "lucide-file",
-              "title": "GPT-Image-2 提示词大全🔥"
+              "icon": "lucide-image",
+              "title": "output"
             }
           }
         ]
@@ -156,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md",
+                "file": "ChatGPT-Image-2 Prompt/images/case_case61/output.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GPT-Image-2 提示词大全🔥 的大纲"
+              "title": "output 的大纲"
             }
           },
           {
@@ -197,10 +195,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "615157bb97436a18",
+  "active": "d660bf5afe857353",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md",
+    "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全.pdf",
+    "conflict-files-obsidian-git.md",
     "news/2026/04/24/AI产品.md",
     "ChatGPT-Image-2 Prompt/images/portrait_case12/output.jpg",
     "ChatGPT-Image-2 Prompt/images/portrait_case12",
@@ -221,7 +220,6 @@
     "ChatGPT-Image-2 Prompt/images/comparison_case4/output.jpg",
     "ChatGPT-Image-2 Prompt/images/comparison_case4",
     "ChatGPT-Image-2 Prompt/images/comparison_case39/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/comparison_case39",
     "news/2026/04/22/公司.md",
     "news/2026/04/23/AI工具与MCP.md",
     "news/2026/04/21/AI.md",
