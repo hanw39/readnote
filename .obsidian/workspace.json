@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "news/2026/04/23/AI工具与MCP.md",
+                "file": "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI工具与MCP"
+              "title": "GPT-Image-2 提示词大全🔥"
+            }
+          },
+          {
+            "id": "6fd07bddbbbbff20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GPT-Image-2 提示词大全🔥"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "news/2026/04/23/AI工具与MCP.md",
+                "file": "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI工具与MCP 的大纲"
+              "title": "GPT-Image-2 提示词大全🔥 的大纲"
             }
           },
           {
@@ -197,44 +212,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e3f90d29bb01f86",
+  "active": "6fd07bddbbbbff20",
   "lastOpenFiles": [
-    "ChatGPT-Image-2 Prompt",
+    "news/2026/04/24/AI产品.md",
+    "ChatGPT-Image-2 Prompt/images/portrait_case12/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/portrait_case12",
+    "ChatGPT-Image-2 Prompt/images/portrait_case11/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/portrait_case11",
+    "ChatGPT-Image-2 Prompt/images/portrait_case10/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/portrait_case10",
+    "ChatGPT-Image-2 Prompt/images/portrait_case1/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/portrait_case1",
+    "ChatGPT-Image-2 Prompt/images/comparison_case8/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/comparison_case8",
+    "ChatGPT-Image-2 Prompt/images/comparison_case7/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/comparison_case7",
+    "ChatGPT-Image-2 Prompt/images/comparison_case6/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/comparison_case6",
+    "ChatGPT-Image-2 Prompt/images/comparison_case5/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/comparison_case5",
+    "ChatGPT-Image-2 Prompt/images/comparison_case4/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/comparison_case4",
+    "ChatGPT-Image-2 Prompt/images/comparison_case39/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/comparison_case39",
+    "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md",
     "news/2026/04/22/公司.md",
+    "news/2026/04/23/AI工具与MCP.md",
     "news/2026/04/21/AI.md",
     "news/2026/04/18/AI.md",
     "news/2026/04/18/开源.md",
     "news/2026/04/17/AI.md",
     "news/2026/04/17/产品.md",
-    "news/2026/04/24/AI产品.md",
     "news/2026/04/24/summary.md",
     "news/2026/04/24/AI工具与产品.md",
-    "news/2026/04/24",
     "conflict-files-obsidian-git.md",
     "news/2026/04/23/AI经济研究.md",
-    "news/2026/04/23/AI工具与MCP.md",
     "news/2026/04/23/summary.md",
     "note/杂项.md",
     "Viking DB/【向量库】表征方式配置参考--向量数据库VikingDB-火山引擎.md",
-    "news/2026/04/23",
-    "news/2026/04",
-    "news/2026",
-    "news",
     "AI资讯/ClaudeCode Change Log.md",
     "news/2026/04/22/summary.md",
-    "news/2026/04/22",
-    "note",
-    "Viking DB",
     "2小时应该Build个什么产品.md",
     "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
-    "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
-    "未命名.base",
     "news/2026/04/21/summary.md",
     "2小时应该Build个什么产品/未命名.canvas",
     "2小时应该Build个什么产品/2小时应该Build个什么产品——笔记.md",
     "news/2026/04/19/开源.md",
     "news/2026/04/19/产品.md",
-    "news/2026/04/19/summary.md",
-    "news/2026/04/19/AI.md"
+    "news/2026/04/19/summary.md"
   ]
 }
