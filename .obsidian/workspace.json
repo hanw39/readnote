@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "89afe3e49b27065d",
+        "id": "98256f043efea1c6",
         "type": "tabs",
         "children": [
           {
-            "id": "d660bf5afe857353",
+            "id": "bb3e0a6d1a391ac9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "news/2026/04/24/AI产品.md",
-                "bFile": "news/2026/04/24/AI产品.md",
-                "aRef": ""
+                "file": "news/2026/05/08/AI行业动态.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: AI产品  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "AI行业动态"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "news/2026/04/24/AI产品.md",
+                "file": "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI产品 的大纲"
+              "title": "AI+小红书私域淘金秘籍 的大纲"
             }
           },
           {
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,54 +198,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d660bf5afe857353",
+  "active": "bb3e0a6d1a391ac9",
   "lastOpenFiles": [
-    "news/2026/05/12/AI研究.md",
-    "news/2026/05/12/AI产品.md",
     "Untitled.md",
-    "news/2026/04/24/AI产品.md",
+    "news/2026/05/13/summary.md",
+    "news/2026/05/13/AI产品.md",
+    "news/2026/05/13",
+    "news/2026/05/12/_cron_status.md",
+    "news/2026/05/12/AI研究.md",
     "news/2026/05/12/summary.md",
+    "news/2026/05/12/AI产品.md",
     "news/2026/05/12",
+    "news/2026/05/11",
+    "news/2026/05/09/AI产品.md",
     "news/2026/05/09/summary.md",
     "news/2026/05/09/AI研究.md",
-    "news/2026/05/09/AI产品.md",
     "news/2026/05/09",
-    "news/2026/05/08/summary.md",
     "news/2026/05/08/AI行业动态.md",
-    "news/2026/05/08/AI研究.md",
     "news/2026/05/08/AI产品.md",
+    "news/2026/05/08/summary.md",
+    "news/2026/05/08/AI研究.md",
+    "2小时应该Build个什么产品.md",
     "news/2026/05/08",
     "news/2026/05",
     "news/2026/04/25/summary.md",
     "news/2026/04/25/AI行业动态.md",
     "news/2026/04/25/AI产品.md",
-    "news/2026/04/25",
     "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全.md",
-    "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全.md.baiduyun.uploading.cfg",
-    "ChatGPT-Image-2 Prompt/images/case_case61/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/ui_case9/output.jpg.baiduyun.uploading.cfg",
-    "ChatGPT-Image-2 Prompt/images/ui_case88/output.jpg.baiduyun.uploading.cfg",
-    "ChatGPT-Image-2 Prompt/images/ui_case8/output.jpg.baiduyun.uploading.cfg",
-    "ChatGPT-Image-2 Prompt/images/ui_case7/output.jpg.baiduyun.uploading.cfg",
-    "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md",
-    "conflict-files-obsidian-git.md",
-    "ChatGPT-Image-2 Prompt/images/portrait_case12/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/portrait_case11/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/portrait_case10/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/portrait_case1/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/comparison_case8/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/comparison_case7/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/comparison_case6/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/comparison_case5/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/comparison_case4/output.jpg",
+    "news/2026/04/25",
+    "AI资讯/2026/04/21/summary.md",
+    "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md.baiduyun.uploading.cfg",
     "news/2026/04/22/公司.md",
-    "news/2026/04/23/AI工具与MCP.md",
+    "news/2026/04/22/summary.md",
+    "news/2026/04/21/summary.md",
     "news/2026/04/21/AI.md",
-    "news/2026/04/18/AI.md",
-    "news/2026/04/18/开源.md",
-    "news/2026/04/17/AI.md",
-    "news/2026/04/17/产品.md",
-    "news/2026/04/24/summary.md",
-    "2小时应该Build个什么产品/未命名.canvas"
+    "news/2026/04/19/开源.md",
+    "news/2026/04/19/产品.md",
+    "news/2026/04/19",
+    "news/2026/04/18",
+    "ChatGPT-Image-2 Prompt/images/ui_case9/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/ui_case88/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/ui_case8/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/ui_case7/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/ui_case64/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/ui_case63/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/ui_case6/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/ui_case5/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/ui_case40/output.jpg",
+    "ChatGPT-Image-2 Prompt/images/ui_case4/output.jpg"
   ]
 }
