@@ -11,14 +11,14 @@
             "id": "d660bf5afe857353",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全.md",
-                "mode": "source",
-                "source": false
+                "aFile": "news/2026/04/24/AI产品.md",
+                "bFile": "news/2026/04/24/AI产品.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "GPT-Image-2 提示词大全"
+              "icon": "diff",
+              "title": "Diff: AI产品  (Working Tree)"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全.md",
+                "file": "news/2026/04/24/AI产品.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GPT-Image-2 提示词大全 的大纲"
+              "title": "AI产品 的大纲"
             }
           },
           {
@@ -199,21 +199,35 @@
   },
   "active": "d660bf5afe857353",
   "lastOpenFiles": [
-    "ChatGPT-Image-2 Prompt/images/case_case61/output.jpg",
-    "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全.md.baiduyun.uploading.cfg",
+    "news/2026/05/12/AI研究.md",
+    "news/2026/05/12/AI产品.md",
+    "Untitled.md",
+    "news/2026/04/24/AI产品.md",
+    "news/2026/05/12/summary.md",
+    "news/2026/05/12",
+    "news/2026/05/09/summary.md",
+    "news/2026/05/09/AI研究.md",
+    "news/2026/05/09/AI产品.md",
+    "news/2026/05/09",
+    "news/2026/05/08/summary.md",
+    "news/2026/05/08/AI行业动态.md",
+    "news/2026/05/08/AI研究.md",
+    "news/2026/05/08/AI产品.md",
+    "news/2026/05/08",
+    "news/2026/05",
+    "news/2026/04/25/summary.md",
+    "news/2026/04/25/AI行业动态.md",
+    "news/2026/04/25/AI产品.md",
+    "news/2026/04/25",
     "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全.md",
+    "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全.md.baiduyun.uploading.cfg",
+    "ChatGPT-Image-2 Prompt/images/case_case61/output.jpg",
     "ChatGPT-Image-2 Prompt/images/ui_case9/output.jpg.baiduyun.uploading.cfg",
     "ChatGPT-Image-2 Prompt/images/ui_case88/output.jpg.baiduyun.uploading.cfg",
     "ChatGPT-Image-2 Prompt/images/ui_case8/output.jpg.baiduyun.uploading.cfg",
     "ChatGPT-Image-2 Prompt/images/ui_case7/output.jpg.baiduyun.uploading.cfg",
-    "ChatGPT-Image-2 Prompt/images/ui_case64/output.jpg.baiduyun.uploading.cfg",
-    "ChatGPT-Image-2 Prompt/images/ui_case63/output.jpg.baiduyun.uploading.cfg",
-    "ChatGPT-Image-2 Prompt/images/ui_case6/output.jpg.baiduyun.uploading.cfg",
-    "ChatGPT-Image-2 Prompt/images/ui_case5/output.jpg.baiduyun.uploading.cfg",
-    "ChatGPT-Image-2 Prompt/images/ui_case40/output.jpg.baiduyun.uploading.cfg",
     "ChatGPT-Image-2 Prompt/GPT-Image-2 提示词大全🔥.md",
     "conflict-files-obsidian-git.md",
-    "news/2026/04/24/AI产品.md",
     "ChatGPT-Image-2 Prompt/images/portrait_case12/output.jpg",
     "ChatGPT-Image-2 Prompt/images/portrait_case11/output.jpg",
     "ChatGPT-Image-2 Prompt/images/portrait_case10/output.jpg",
@@ -223,7 +237,6 @@
     "ChatGPT-Image-2 Prompt/images/comparison_case6/output.jpg",
     "ChatGPT-Image-2 Prompt/images/comparison_case5/output.jpg",
     "ChatGPT-Image-2 Prompt/images/comparison_case4/output.jpg",
-    "ChatGPT-Image-2 Prompt/images/comparison_case39/output.jpg",
     "news/2026/04/22/公司.md",
     "news/2026/04/23/AI工具与MCP.md",
     "news/2026/04/21/AI.md",
@@ -232,19 +245,6 @@
     "news/2026/04/17/AI.md",
     "news/2026/04/17/产品.md",
     "news/2026/04/24/summary.md",
-    "news/2026/04/24/AI工具与产品.md",
-    "news/2026/04/23/AI经济研究.md",
-    "news/2026/04/23/summary.md",
-    "note/杂项.md",
-    "Viking DB/【向量库】表征方式配置参考--向量数据库VikingDB-火山引擎.md",
-    "AI资讯/ClaudeCode Change Log.md",
-    "news/2026/04/22/summary.md",
-    "2小时应该Build个什么产品.md",
-    "AI+小红书私域淘金秘籍/AI+小红书私域淘金秘籍.md",
-    "news/2026/04/21/summary.md",
-    "2小时应该Build个什么产品/未命名.canvas",
-    "2小时应该Build个什么产品/2小时应该Build个什么产品——笔记.md",
-    "news/2026/04/19/开源.md",
-    "news/2026/04/19/产品.md"
+    "2小时应该Build个什么产品/未命名.canvas"
   ]
 }
