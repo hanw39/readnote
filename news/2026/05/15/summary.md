@@ -2,28 +2,33 @@
 
 ## 一、今天发生了什么（整体趋势）
 
-今天有两条值得关注的新闻：一是 **xAI 发布 Grok Build 编程 Agent**，xAI 正式入局 AI 编程赛道，与 Claude Code、Codex CLI、Copilot 形成四方竞争格局；二是 **PwC 与 Anthropic 大幅扩张战略合作**，将 Claude 深入部署到企业核心业务中，展示了 AI 在企业级市场从概念验证走向规模化部署的实质性跨越。
+今天的信息量非常大，分两条线：
+
+**早间线**：xAI 发布 Grok Build 杀入 AI 编程赛道，PwC × Anthropic 深度合作展示企业级 AI 落地的标杆样本。
+
+**晚间接力**：GitHub Trending 今天异常热闹，一堆 AI 相关项目扎堆上榜，指向几个很明确的信号——Agent Skills 生态正在走向标准化（obra/superpowers、K-Dense-AI/scientific-agent-skills）；数据/监控/视频等垂直领域的 AI Agent 方案正在从"概念"走向"可部署产品"（NVIDIA Blueprints、agentmemory）；顶级人物的个人 AI 工作方式开始被分享和模仿（Garry Tan 的 gstack、Matt Pocock 的 skills）。
 
 ## 二、重点方向
 
-- **大模型**：Grok Build 发布，xAI 进入 AI 编程赛道
-- **AI 应用**：PwC × Anthropic 企业级深度部署；编程 Agent 类产品竞争加剧
-- **企业服务**：保险核保10周→10天、应急响应小时→分钟，AI 落地真实 ROI 显现
-- **开源**：暂无
-- **创业/融资**：暂无
+- **大模型/编程 Agent**：Grok Build 发布、Garry Tan 的 Claude Code 配置开源
+- **AI 应用**：PwC × Anthropic 企业部署、openhuman 个人 AI、Anthropic 创始人手册
+- **开源生态**：Agent Skills 框架和工具集集中爆发（superpowers、scientific-agent-skills、agentmemory、mattpocock/skills）
+- **CV / NVIDIA**：supervision 持续维护、NVIDIA 视频 Agent 参考架构
+- **金融 AI**：Kronos 金融领域 Foundation Model
+- **冷门有趣**：RuView 用 WiFi 信号做人体感知、CloakBrowser 隐形 Chromium
 
 ## 三、值得重点关注的 3 件事
 
-1. **xAI 发布 Grok Build** — 对标 Claude Code，主打 plan-approve 工作流 + 并行子代理，只面向 SuperGrok Heavy 订阅者
-2. **AI 编程工具市场竞争升级** — 现在已有 Claude Code、Codex CLI、Copilot、Grok Build 四家重量级玩家，开发者的选择越来越多
-3. **PwC × Anthropic 合作展示了 AI 企业级部署的标杆样本** — 30,000 人培训、Office of the CFO 独立业务部门、多个行业的实际生产案例，显著提升了企业市场对 AI 落地的信心
-4. **MCP 生态兼容成为标配** — Grok Build 明确支持 MCP 服务器，说明 MCP 协议正在成为 AI 编程工具的通用标准
+1. **Agent Skills 成为标准抽象层** — 今天至少有 3 个项目（superpowers、scientific-agent-skills、mattpocock/skills）涉及 Agent Skills，加上 Claude Code 也在推 Skills，说明可插拔的 Agent 能力正在变成一个事实标准
+2. **Garry Tan 开源 Claude Code 配置** — YC 掌门人的 AI 工作流程被公开，多角色 Agent 模式（CEO/Eng Manager/QA 各一个 tool）可能会成为小团队用 AI 的标准模式
+3. **NVIDIA 视频 Agent 蓝图** — 从零散 SDK 到完整参考架构，NVIDIA 的策略变化意味着企业级视频 AI 落地的门槛在快速降低
 
 ## 四、机会判断（非常重要）
 
-- **对开发者**：又多了一个免费/付费试用新工具的机会。Grok Build 的 plan-approve 流程和并行子代理值得尝尝鲜，尤其是如果你已经在用其他 AI 编程工具可以横向对比
-- **对创业者**：AI 编程 Agent 的混战说明基础能力开始趋同，差异在于工作流设计和体验。围绕终端 Agent 的 MCP 服务器、hooks 插件生态还有创业空间。同时 PwC 的合作说明大型咨询公司正在成为 AI 落地的关键渠道——如果是做企业级 AI 服务的创业公司，找咨询公司合作可能比直接卖产品更高效。
+- **对开发者**：Agent Skills 生态在爆发期，如果你正在做 AI Agent 工具，可以参考 superpowers + scientific-agent-skills 的组合来定义自己的 Skills 体系。Garry Tan 的 gstack 值得直接 clone 下来体验多角色 Agent 工作流。
+- **对创业者**：Garry Tan 的配置开源说明"虚拟团队"模式正在被最顶级的投资人认可。围绕 AI Agent 的"角色定义"和"工作流设计"还有大量产品空间——不管是套在 Claude Code 上的配置模板，还是独立的 Agent 多角色编排平台。
+- **对普通人**：openhuman 这种隐私优先的个人 AI 的出现，意味着你有更多选择来保护自己的数据。AI 产品的多样性在增加，不只是 ChatGPT 和 Claude 二选一。
 
 ## 五、一句话总结
 
-AI 编程赛道四方混战，PwC 则用实打实的生产案例证明了 Claude 在大企业核心业务中的价值——两个方向都在告诉市场：AI 已经从聊聊天变成了真正干活的生产力工具。
+AI 编程赛道四方混战的同时，Agent 技能化（Skills）正在成为行业通用的抽象层——工具在变，但"插件化 Agent 能力"这个方向越来越清晰。
