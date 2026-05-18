@@ -3,6 +3,9 @@
 .obsidian/workspace/
 .obsidian/cache/
 
+# === Obsidian 插件（社区自动下载，不需要源码） ===
+.obsidian/plugins/
+
 # === 操作系统垃圾 ===
 Thumbs.db
 .DS_Store
