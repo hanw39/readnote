@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a83fb0c70c5b39d2",
+        "id": "ee3a1d498ac86554",
         "type": "tabs",
         "children": [
           {
-            "id": "59d565ccbae25ada",
+            "id": "fad124103718cc5d",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".idea/.gitignore",
-                "bFile": ".idea/.gitignore",
-                "aRef": ""
+                "file": "raw/news/2026/2026-05-18.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: .gitignore  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "2026-05-18"
             }
           }
         ]
@@ -197,8 +197,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59d565ccbae25ada",
+  "active": "fad124103718cc5d",
   "lastOpenFiles": [
+    "Open Source.md",
+    "raw/news/2026/2026-05-18.md",
     "未命名.base",
     "2026-05-18.md",
     "未命名.canvas",
@@ -233,7 +235,6 @@
     "news/2026/04/22/公司.md",
     "news/2026/04/22/summary.md",
     "news/2026/04/21/summary.md",
-    "news/2026/04/21/AI.md",
     "news/2026/04/19",
     "ChatGPT-Image-2 Prompt/images/ui_case9/output.jpg",
     "ChatGPT-Image-2 Prompt/images/ui_case88/output.jpg",
