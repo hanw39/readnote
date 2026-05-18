@@ -1,0 +1,15 @@
+# === Obsidian 会话/缓存 ===
+.obsidian/workspace.json
+.obsidian/workspace/
+.obsidian/cache/
+
+# === 操作系统垃圾 ===
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# === 其他 ===
+.trash/
+*.tmp
+*.bak
+node_modules/
