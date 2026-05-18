@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "98256f043efea1c6",
+        "id": "a83fb0c70c5b39d2",
         "type": "tabs",
         "children": [
           {
-            "id": "bb3e0a6d1a391ac9",
+            "id": "59d565ccbae25ada",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "news/2026/05/08/AI行业动态.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".idea/.gitignore",
+                "bFile": ".idea/.gitignore",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "AI行业动态"
+              "icon": "diff",
+              "title": "Diff: .gitignore  (Working Tree)"
             }
           }
         ]
@@ -180,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,8 +197,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb3e0a6d1a391ac9",
+  "active": "59d565ccbae25ada",
   "lastOpenFiles": [
+    "未命名.base",
+    "2026-05-18.md",
+    "未命名.canvas",
     "Untitled.md",
     "news/2026/05/13/summary.md",
     "news/2026/05/13/AI产品.md",
@@ -232,10 +234,7 @@
     "news/2026/04/22/summary.md",
     "news/2026/04/21/summary.md",
     "news/2026/04/21/AI.md",
-    "news/2026/04/19/开源.md",
-    "news/2026/04/19/产品.md",
     "news/2026/04/19",
-    "news/2026/04/18",
     "ChatGPT-Image-2 Prompt/images/ui_case9/output.jpg",
     "ChatGPT-Image-2 Prompt/images/ui_case88/output.jpg",
     "ChatGPT-Image-2 Prompt/images/ui_case8/output.jpg",

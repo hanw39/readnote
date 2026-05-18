@@ -1,4 +1,6 @@
 [
   "pdf-plus",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-linter",
+  "obsidian-view-mode-by-frontmatter"
 ]
