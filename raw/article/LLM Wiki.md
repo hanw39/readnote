@@ -120,6 +120,10 @@ At some point you may want to build small tools that help the LLM operate on the
 - **Obsidian 的图谱视图** 是查看 wiki 形态的最佳方式 —— 什么和什么相连，哪些页面是枢纽，哪些是孤立的。
 - **Marp** 是一种基于 markdown 的幻灯片格式。Obsidian 有对应插件。适合直接从 wiki 内容生成演示文稿。
 - **Dataview** 是一个在页面 frontmatter 上跑查询的 Obsidian 插件。如果你的 LLM 为 wiki 页面添加 YAML frontmatter（标签、日期、资料数量），Dataview 可以生成动态表格和列表。
+	
+  > [!question] 
+> 这里是说用wiki来管理嘛？
+
 - wiki 就是 markdown 文件的 git 仓库。你免费获得版本历史、分支和协作功能。
 
 - **Obsidian Web Clipper** is a browser extension that converts web articles to markdown. Very useful for quickly getting sources into your raw collection.
