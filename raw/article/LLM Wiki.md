@@ -157,3 +157,151 @@ The idea is related in spirit to Vannevar Bush's Memex (1945) — a personal, cu
 本文档故意保持抽象。它描述的是思想，不是具体实现。确切的目录结构、schema 约定、页面格式、工具 —— 所有这些都取决于你的领域、你的偏好和你选择的 LLM。上述所有内容都是可选和模块化的 —— 选有用的，忽略不需要的。例如：你的资料可能只有文字，所以你完全不需要图片处理。你的 wiki 可能足够小，索引文件就够了，不需要搜索引擎。你可能不关心幻灯片，只想要 markdown 页面。你可能想要一套完全不同的输出格式。正确的使用方式是把它分享给你的 LLM Agent，一起协作实例化一个适合你需求的版本。这份文档的唯一职责是传达这个模式。你的 LLM 能搞定其余的。
 
 This document is intentionally abstract. It describes the idea, not a specific implementation. The exact directory structure, the schema conventions, the page formats, the tooling — all of that will depend on your domain, your preferences, and your LLM of choice. Everything mentioned above is optional and modular — pick what's useful, ignore what isn't. For example: your sources might be text-only, so you don't need image handling at all. Your wiki might be small enough that the index file is all you need, no search engine required. You might not care about slide decks and just want markdown pages. You might want a completely different set of output formats. The right way to use this is to share it with your LLM agent and work together to instantiate a version that fits your needs. The document's only job is to communicate the pattern. Your LLM can figure out the rest.
+
+
+
+---
+评论人：[nowissan](https://gist.github.com/nowissan)
+
+Built a desktop editor implementation of this idea — [nohmitaina](https://nohmitaina.com/). Works with Claude Code or Codex CLI (no API key), local Markdown, macOS.
+
+After a month of feeding it my own notes, three problems showed up that I think most implementations of this pattern will hit:
+
+1. **Identity** — The same concept gets extracted under slightly different names from related sources. The wiki ends up with duplicate pages ("Cognitive Dissonance Marketing" and "Cognitive Dissonance and Urgency" from the same book, in my case).
+    
+2. **Level** — Life-scale themes ("Personal AGI") end up at the same level as tactical findings ("Urgency Trigger"). When everything is flat, importance disappears.
+    
+3. **Relationship** — Concepts get linked as "related," but the type is lost. Similar, contains, contradicts — all collapsed into one word, which makes the graph useful for navigation but not for thinking.
+    
+
+I did a DDD event-storming pass on the wiki domain and treated each as a first-class domain event (`DuplicateCandidateDetected`, `ConceptsMerged`, `ConceptRelationshipTyped`, `ConceptLevelChanged`). These run on what I call a Dream cycle — a background pass borrowed from how human memory consolidates during sleep. It also handles the "lint" operation mentioned in the gist.
+
+Found another commenter (Andrii) on X who's solving Level a different way — by extracting _citable claims_ first, then building the concept layer on top of claim collections. The claim approach makes Level fall out structurally (high-claim concepts are heavyweight, low-claim ones are light), which feels more elegant than my event-driven approach. I'm going to try integrating both.
+
+Thanks for the framing — it's already shaped how a small group of us is thinking about this.
+
+
+---
+
+评论人：**[jianghailong-xy](https://gist.github.com/jianghailong-xy)
+
+Spent the last few months building basically this — three buckets (raw sources, agent-maintained wiki, agent config) with a self-healing maintenance loop on top.
+
+The mapping ended up surprisingly literal:
+
+- **sources/** — append-only raw research the researcher agent writes; URLs deduped across runs so we don't crawl the same page twice.
+- **wiki/** — structured markdown the curator agent (re)writes from sources. One ingest run typically touches 8–15 pages, exactly as you describe.
+- **agents table** — per-wiki schedules + trigger graph. A daily cron fires the researcher, which cascades into ingest, which cascades into lint.
+
+The piece that ended up mattering most was your line about periodic linting. We pushed it into a self-healing loop: the inspector agent reports cross-page contradictions, stale claims, orphan wikilinks, and data gaps, then auto-chains a scoped re-research + refine for anything that needs fresh sources. High-confidence fixes (e.g. basename-exact missing-page links) apply with no LLM call; lower-confidence ones either auto-apply or queue for human review, per-wiki toggle.
+
+A few wikis built this way:
+
+- OpenAI — [https://wikova.com/wiki/od60853y](https://wikova.com/wiki/od60853y)
+- Elon Musk — [https://wikova.com/wiki/tzg3ChuB](https://wikova.com/wiki/tzg3ChuB)
+- NVIDIA — [https://wikova.com/wiki/VmhKV1Gd](https://wikova.com/wiki/VmhKV1Gd)
+- Karpathy Wiki — [https://wikova.com/wiki/UirQd0U3](https://wikova.com/wiki/UirQd0U3)
+- ChatGPT — [https://wikova.com/wiki/F7D3aoql](https://wikova.com/wiki/F7D3aoql)
+- Anthropic and Claude — [https://wikova.com/wiki/GmFezP53](https://wikova.com/wiki/GmFezP53)
+- Google — [https://wikova.com/wiki/wtK2dHcL](https://wikova.com/wiki/wtK2dHcL)
+- Andrej Karpathy — [https://wikova.com/wiki/lAuGSDQ7](https://wikova.com/wiki/lAuGSDQ7)
+
+Live at [https://wikova.com](https://wikova.com/) — drop a topic in the search bar and the pipeline kicks off.
+
+
+
+---
+
+```
+# LLM_WIKI_PATTERN
+* source: `https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md` 
+
+## PARADIGM_SHIFT
+* standard_rag
+  * flow: query -> search(raw_docs) -> transient_synthesis
+  * attributes: stateless
+  * result: knowledge_accumulation == 0
+* **llm_wiki**
+  * flow: ingest(raw_docs) -> update(persistent_graph) -> query() -> compound_growth
+  * attributes: stateful
+  * result: knowledge_accumulation -> max
+* **llm_wiki** != standard_rag
+
+## ROLE_ALLOCATION
+* human_user
+  * responsibilities: {sourcing, exploration, inquiry, direction_setting}
+* llm_agent
+  * instances: {openai_codex, claude_code, open_code, pi}
+  * responsibilities: {summarizing, cross_referencing, bookkeeping, updating, formatting}
+  * attributes: {tireless, maintenance_cost == 0}
+* system_analogy: {obsidian == ide, llm_agent == programmer, **llm_wiki** == codebase}
+
+## ARCHITECTURE
+* system_layers == raw_sources + wiki_core + schema
+* raw_sources
+  * format: {articles, papers, images, data_files}
+  * attributes: {immutable, source_of_truth}
+  * permissions: human_user -> write, llm_agent -> read_only
+* wiki_core
+  * format: markdown_directory
+  * content: {summaries, entity_pages, concept_pages, comparisons, syntheses}
+  * attributes: {mutable, compounding, interlinked}
+  * permissions: llm_agent -> write_owner, human_user -> read_explorer
+* schema
+  * instances: {`CLAUDE.md`, `AGENTS.md`}
+  * role: llm_behavior_definition
+  * content: {structure_rules, conventions, workflows}
+  * transformation: llm_chatbot + schema => disciplined_wiki_maintainer
+
+## OPERATIONS
+* ingest(new_source)
+  * trigger: human_user -> add(raw_sources)
+  * flow: read(new_source) -> discuss() -> write(summary) -> update(`index.md`) -> update(entities_concepts) -> append(`log.md`)
+  * scope: 1_source => modifies(10...15_pages)
+* query(question)
+  * flow: question -> read(`index.md`) -> read(relevant_pages) -> synthesize(answer, citations)
+  * output_formats: {markdown_page, comparison_table, marp_deck, matplotlib_chart, canvas}
+  * core_heuristic: valuable_answer -> file_back(wiki_core) => compound_growth
+* lint()
+  * frequency: periodic
+  * targets: {contradictions, stale_claims, orphan_pages, missing_links, missing_concepts, data_gaps}
+  * actions: fix(targets) + suggest(new_questions, new_sources)
+  * result: wiki_health -> max
+
+## NAVIGATION_STATE
+* `index.md`
+  * nature: content_catalog
+  * structure: list[link, 1_line_summary, metadata]
+  * organization: category_based
+  * utility: rag_infrastructure_replacement @ scale < 1000_sources
+  * trigger: update() @ ingest()
+* `log.md`
+  * nature: chronological_ledger
+  * attributes: append_only
+  * syntax_rule: `## [YYYY-MM-DD] action | title`
+  * utility: unix_parsing_compatibility + temporal_context_awareness
+
+## TOOLING_ECOSYSTEM
+* search_engine: {`qmd` | custom_script}
+  * features: {bm25, vector_search, llm_reranking}
+  * interfaces: {cli, mcp_server}
+* obsidian_web_clipper -> html_to_markdown_ingestion
+* local_assets: download_images -> local_path => link_rot_prevention
+* llm_vision_constraint: inline_images -> read_text_first -> view_images_separately
+* obsidian_graph_view -> visualize(topology, hubs, orphans)
+* marp -> markdown_to_slides_transformation
+* dataview -> query(yaml_frontmatter) => dynamic_tables
+* git -> {version_control, history, branching, collaboration}
+
+## USE_CASES
+* domains: {personal_tracking, research, book_companion, team_knowledge_base, deep_dives}
+* book_companion_scale: human_user + llm_agent ~ community_effort @ tolkien_gateway
+
+## TELEOLOGY
+* failure_mode(human_wiki): maintenance_burden > value => abandonment
+* success_mode(**llm_wiki**): llm_agent -> bookkeeping => maintenance_burden == 0 => persistence
+* lineage: **llm_wiki** ~ vannevar_bush_memex_1945
+  * shared_traits: [private, actively_curated, associative_trails]
+  * solved_problem: memex_maintenance == llm_agent
+* modularity: implementation_details -> adaptable(domain, preferences, llm_choice)
+```
