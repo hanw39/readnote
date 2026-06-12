@@ -12,15 +12,15 @@
 - **简介**：MMLU（大规模多任务语言理解）的加强版，覆盖数十个学科的选择题，Pro 版选项更多、更难、更防套路。EM = Exact Match（精确匹配），即答案完全对才算分。
 - **命名含义**：MMLU = Massive Multitask Language Understanding；Pro = 加难版。
 
-**SimpleQA-Verified (Pass@1)** / **Chinese-SimpleQA (Pass@1)**
+**SimpleQA-Verified / **Chinese-SimpleQA **
 - **简介**：考查模型对「简短事实性问题」的准确性与抗幻觉能力——问题答案唯一、易核验，专门暴露模型「一本正经胡说」的毛病。Chinese-SimpleQA 是中文版。Pass@1 = 只给一次作答机会的正确率。
 - **命名含义**：SimpleQA = 简单事实问答；Verified = 经核验的干净子集。
 
-**GPQA Diamond (Pass@1)**
+**GPQA Diamond**
 - **简介**：研究生级别、Google 都难搜到答案的高难科学题（物理/化学/生物），Diamond 是其中专家高度一致、质量最高的子集。考查深层科学推理。
 - **命名含义**：GPQA = Graduate-Level Google-Proof Q&A（研究生级、防搜索问答）；Diamond = 最高质量子集。
 
-**LiveCodeBench (Pass@1)**
+**LiveCodeBench**
 - **简介**：用「持续更新的新题」考查模型写代码/解算法题的能力，因题目较新可缓解数据污染，Live 体现其滚动更新。
 - **命名含义**：Live = 实时/滚动更新；Code = 编程；Bench = 基准。
 
@@ -28,17 +28,17 @@
 - **简介**：直接用知名竞赛编程平台 Codeforces 的题目评测，并换算成与人类选手可比的 **Rating（天梯分）**，衡量模型的竞赛级算法能力。
 - **命名含义**：Codeforces = 竞赛平台名；Rating = 天梯积分。
 
-**HMMT 2026 Feb (Pass@1)**
+**HMMT 2026 Feb**
 - **简介**：取自哈佛-MIT 数学竞赛（HMMT）2026 年 2 月赛的题目，考查高中顶尖竞赛级数学能力。用新一届赛题可缓解数据污染。
 - **命名含义**：HMMT = Harvard-MIT Math Tournament；2026 Feb = 具体赛事场次。
 
-**IMOAnswerBench (Pass@1)**
+**IMOAnswerBench**
 - 项目主页：[https://imobench.github.io/](https://imobench.github.io/)
 - 论文地址：[https://huggingface.co/papers/2511.01846](https://huggingface.co/papers/2511.01846)
 - **简介**：[[Company#Google DeepMind|Google DeepMind]] 的 IMO-Bench 套件之一，由 IMO 奖牌得主参与设计。只考「最终答案对不对」的奥数题（对应的 IMO-ProofBench 则评证明过程），目标是抗套路的稳健数学推理。
 - **命名含义**：IMO = 国际数学奥林匹克；AnswerBench = 只判最终答案的基准。
 
-**Apex / Apex Shortlist (Pass@1)**
+**Apex / Apex Shortlist**
 - 论文地址：[https://arxiv.org/pdf/2601.14242v2](https://arxiv.org/pdf/2601.14242v2)
 - **简介**：[[Company#Mercor|Mercor]] 的 APEX 系列，480 个贴近真实职业的长程任务，考查多步推理与持续执行（另有 APEX-SWE 软件工程变体）。Shortlist 应为精选高难子集。
 - **命名含义**：Apex = 顶点/巅峰，寓意能力上限；Shortlist = 入围精选（高难子集）。
@@ -129,7 +129,7 @@
 - **简介**：由 [[Company#研究机构 / 高校|HKUST-NLP]]（联合 CMU）发布，从「多样性、真实性、长程执行」三方面考查语言 Agent 的工具使用能力——覆盖众多领域的工具，任务贴近真实工作流，需要串起大量工具调用并在长序列里保持连贯。
 - **命名含义**：Tool + athlon（取自 decathlon「十项全能」）= 工具使用的「全能竞技」；强调一专多能、综合考核。
 
-**MCPAtlas Public (Pass@1)**
+**MCPAtlas Public
 - GitHub：[https://github.com/scaleapi/mcp-atlas](https://github.com/scaleapi/mcp-atlas)
 - 论文地址：[https://arxiv.org/html/2602.00933](https://arxiv.org/html/2602.00933)
 - Leaderboard：[https://labs.scale.com/leaderboard/mcp_atlas](https://labs.scale.com/leaderboard/mcp_atlas)
